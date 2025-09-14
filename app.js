@@ -4,7 +4,7 @@ console.log("3");
 console.log("4");
 console.log("5");
 
-// for loop
+// for loop(know about ending)
 for(let i=1;i<=5;i++){
     console.log(i);
 }
@@ -46,5 +46,40 @@ for(let i=1;i<=3;i++){
    
         console.log(j);
     }
+}
+// while loop(dont know where is end)
+let i=20;
+while(i<=25){
+    console.log(i);
+    i++;
+}
+
+// game favourite movie
+// const movie="PK";
+// let guess=prompt("Enter your favourite movie");
+// while((guess!=movie)&&(guess!="quit"))
+// {
+//     console.log("Wrong");
+//     guess=prompt("Enter your favourite movie again ");
+// }
+// if(movie==guess){
+// console.log("Succesfull you are right" );
+// }
+// else{
+//     console.log("Yoy Quit");
+// }
+
+
+
+// while break neechy sab khtm
+let f=1;
+while(f<=5){
+    if(f==3) {
+        console.log("3 is here");
+        break;
+    }
+    console.log(f);
+    i++;
+
 }
 
