@@ -75,11 +75,62 @@ while(i<=25){
 let f=1;
 while(f<=5){
     if(f==3) {
-        console.log("3 is here");
+        console.log("3 is here breakk all the rest");
         break;
     }
     console.log(f);
-    i++;
+    f++;
 
 }
+
+// lopps with arrays
+let arr=["banana","apple","pineapple","gava","grapes"];
+for(let i=0;i<arr.length;i++){
+    console.log(i,arr[i]);
+}
+let arr2=["banana","apple","pineapple","gava","grapes"];
+for(let i=arr2.length-1;i>=0;i--){
+    console.log(i,arr2[i]);
+}
+
+// nested for loops 2d
+let arr3=[["banana","apple"],["pineapple","gava"],["grapes","watermeon"]];
+for(let r=0;r<arr3.length;r++)
+{
+    for(let s=0;s<arr3[r].length;s++)
+    {
+        console.log(arr3[r][s]);
+    }
+}
+
+
+
+
+
+// for-of      loop
+let fruits=["banana","apple","pineapple","gava","grapes"];
+for(fruit of fruits)
+{
+    console.log(fruit);
+}
+
+
+for(char of "fruits")
+{
+    console.log(char);
+}
+
+
+
+// nested for-of loop
+let forof=[["banana","apple"],["pineapple","gava"],["grapes","watermeon"]];
+for(outer of forof){
+    for(inner of outer)
+    {
+        console.log(inner);
+    }
+}
+
+
+
 
